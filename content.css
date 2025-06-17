@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+:root {
+    --primary-color:#99a98f;
+    --decent-color:#d6e8db;
+    --accent-color:#fff;
+    --secondary-color: rgb(9,189,9);
+    --text-color: gray;
+
+}
+*{
+    padding:0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body {
+	background-image: url('img/without\ middle.png');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;
+
+   } 
+ 
+/* cover section */
+.cover{
+    background-image: url('img/chelsea-shapouri-kEF2XCBE4TY-unsplash.jpg');
+    background-size: cover;
+    height: 55vh;
+    background-position: center;
+    border-radius: 10px;
+    margin-top: 120px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.cover--overlay{
+    background: rgba(0,0,0,0.6);
+    height: 100%;
+    color: var(--accent-color);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+}
+ 
+.slogan{
+    font-size: 15px;
+}
+.section--1 {
+    display: flex;
+    margin: 20px;
+    padding: 5px;
+    background-color: var(--decent-color);
+    border-radius: 15px;
+    transition: 1s;
+
+  }
+
+  .section--2 {
+    display: flex;
+    margin: 20px;
+    padding: 5px;
+    background-color: var(--decent-color);
+    border-radius: 15px;
+    transition: 1s;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .section--2:hover{
+    scale: 101%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px rgb(9,189,9);
+  }
+
+  .section--1:hover{
+    scale: 101%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px rgb(9,189,9);
+  }
+  .section--1 img {
+    height: 300px;
+    width: 500px;
+    border-radius: 10px;
+  }
+
+.section--1 p { 
+    margin-top: 30px;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 50px;
+}
+
+.section--2s p { 
+    margin-top: 30px;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 50px;
+}
+.section--1 h3{
+    margin-top: 40px;
+    text-align: center;
+}
+.section--2 h3{
+    margin-top: 40px;
+    text-align: center;
+}
